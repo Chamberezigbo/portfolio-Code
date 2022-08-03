@@ -1,10 +1,10 @@
 import React from "react";
 
-export default function LandingPage() {
+export default function LandingPage({ img, onClickHandler }) {
 	return (
 		<>
-			<div className="row">
-				<div className="col-5">
+			<div className="row mb-5">
+				<div className="col-md-5 col-sm-12">
 					<h1 className="text-break fw-bolder fst-italic">
 						Hi, I’m Chamberlain, Your Next Software Engineer
 					</h1>
@@ -13,16 +13,20 @@ export default function LandingPage() {
 							Ready to have some sense of humanity
 						</p>
 					</div>
-					<button type="button" className="btn btn-outline-success">
+					<button
+						type="button"
+						className="btn btn-outline-success"
+						onClick={onClickHandler}
+					>
 						Meet Me
 					</button>
 				</div>
-				<div className="col-7">
+				<div className="col-md-7 col-sm-12 mt-2">
 					<img
-						src={bg}
+						src={img}
 						className="img-thumbnail"
-						alt={bg}
-						width="97%"
+						alt={img}
+						width="100%"
 					/>
 				</div>
 			</div>

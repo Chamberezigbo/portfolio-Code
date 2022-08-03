@@ -17,7 +17,9 @@ export default function OffcanvasNav() {
 							<a
 								className="nav-link active"
 								aria-current="page"
-								href="#"
+								href={x.url}
+								target="_blank"
+								rel="noreferrer"
 							>
 								<span className="text-success pe-3">
 									{x.fontImage}

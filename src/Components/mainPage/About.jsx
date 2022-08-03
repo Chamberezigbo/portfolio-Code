@@ -1,11 +1,12 @@
 import React from "react";
 import "./MainPage.css";
+import ServicePage from "./ServicePage";
 
-export default function About({ img }) {
+export default function About({ img, onClickHandler }) {
 	return (
 		<>
-			<div className="row mb-5">
-				<div className="col-lg-5 col-sm-12">
+			<div className="row mb-5 border-bottom border-light border-3 pb-5">
+				<div className="col-md-5 col-sm-12">
 					<h1 className="text-break fw-bold fst-italic">About Me</h1>
 					<article>
 						<div className="my-4">
@@ -49,12 +50,13 @@ export default function About({ img }) {
 						<button
 							type="button"
 							className="btn btn-outline-success ms-2 btn-sm"
+							onClick={onClickHandler}
 						>
 							Home
 						</button>
 					</div>
 				</div>
-				<div className="col-7 d-none d-sm-none d-lg-block">
+				<div className="col-md-7 d-none d-sm-none d-lg-block">
 					<img
 						src={img}
 						className="img-thumbnail"
@@ -63,6 +65,7 @@ export default function About({ img }) {
 					/>
 				</div>
 			</div>
+			<ServicePage />
 		</>
 	);
 }

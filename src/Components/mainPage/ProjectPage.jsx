@@ -1,24 +1,35 @@
-export default function ProjectPage({ img }) {
+import data from "../data/projects";
+export default function ProjectPage() {
 	return (
 		<>
-			<div className="col-6">
-				<div className="card mb-3">
-					<img src={img} className="card-img-top" alt={img} />
-					<div className="card-body">
-						<h5 className="card-title">Card title</h5>
-						<p className="card-text">
-							This is a wider card with supporting text below as a
-							natural lead-in to additional content. This content
-							is a little bit longer.
-						</p>
-						<p className="card-text">
-							<small className="text-muted">
-								Last updated 3 mins ago
-							</small>
-						</p>
+			{data.map((a) => (
+				<div className="col-lg-6">
+					<div className="card mb-3">
+						<img
+							src={process.env.PUBLIC_URL + a.img}
+							className="card-img-top"
+							alt={a.Name}
+							width="100"
+							height="300"
+						/>
+						<div className="card-body">
+							<h5 className="card-title">{a.Name}</h5>
+							<p className="card-text">{a.Description}</p>
+							<p className="card-text">
+								<small className="text-muted">{a.Stack}</small>
+							</p>
+							<a
+								href={a.url}
+								class="btn btn-outline-success"
+								target="_bank"
+							>
+								Visit
+							</a>
+						</div>
 					</div>
 				</div>
-			</div>
+			))}
+			{/* src={process.env.PUBLIC_URL + a.img} */}
 		</>
 	);
 }

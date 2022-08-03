@@ -5,7 +5,13 @@ export default function SocialLinks() {
 		<>
 			{data.map((a) => {
 				return (
-					<a href="#" className="text-dark ms-2 py-3" key={a.id}>
+					<a
+						href={a.url}
+						target="_blank"
+						className="text-dark ms-2 py-3"
+						key={a.id}
+						rel="noreferrer"
+					>
 						{a.fontImage}
 					</a>
 				);

@@ -2,9 +2,10 @@ import SocialLinks from "../data/SocialLinks";
 import bg from "../../img/bg-main-potr.png";
 import ProjectPage from "./ProjectPage";
 import About from "./About";
+import LandingPage from "./LandingPage";
 import "./MainPage.css";
 
-export default function MainPage() {
+export default function MainPage({ onClickHandler, pageStatus }) {
 	return (
 		<div className="container-fluid mt-5">
 			<div className="container">
@@ -19,16 +20,20 @@ export default function MainPage() {
 				</div>
 			</div>
 
-			<div className="container my-5  border-bottom border-secondary">
-				<About img={bg} />
+			<div className="container my-5">
+				{pageStatus ? (
+					<About img={bg} onClickHandler={onClickHandler} />
+				) : (
+					<LandingPage img={bg} onClickHandler={onClickHandler} />
+				)}
 			</div>
 
-			<div className="container mt-5">
+			<div className="container mt-5 border-top border-secondary">
 				<div className="ProjectSec">
 					<h2 className="fst-italic my-5">Latest Project</h2>
 				</div>
 				<div className="row">
-					<ProjectPage img={bg} />
+					<ProjectPage />
 				</div>
 			</div>
 		</div>

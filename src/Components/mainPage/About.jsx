@@ -27,10 +27,9 @@ export default function About({ img, onClickHandler }) {
 						</div>
 						<div>
 							<p className="fst-italic">
-								My name is Shawn Charles. I’m a passionate child
-								of parents who emigrated from Guyana, passionate
-								about creating community within the tech space,
-								And a passionate software engineer who will do
+								My name is Chamberlain Ezigbo. passionate about
+								creating community within the tech space, And a
+								passionate software engineer who will do
 								whatever it takes to find an answer.
 							</p>
 						</div>
@@ -41,12 +40,12 @@ export default function About({ img, onClickHandler }) {
 						</div>
 					</article>
 					<div className="container">
-						<button
-							type="button"
-							className="btn btn-outline-success btn-sm"
+						<a
+							href="https://drive.google.com/file/d/17kWzgkIz9GJS8svcJnnllqc3oNsQk0Jv/view?usp=sharing"
+							className="text-dark btn btn-outline-success btn-sm"
 						>
-							Download Cv
-						</button>
+							View Cv
+						</a>
 						<button
 							type="button"
 							className="btn btn-outline-success ms-2 btn-sm"

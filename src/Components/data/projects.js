@@ -23,8 +23,9 @@ const project = [
 		Name: "E-commerce ",
 		Description:
 			"An E-commerce site with a check-out futures and payment with paystack",
-		Stack: "JavaScript, Bootstra,Css",
+		Stack: "JavaScript, Bootstrap,Css",
 		img: "/img/E-commerce.png",
+		url: "https://chamberezigbo.github.io/commerce/",
 	},
 	{
 		Name: "Monster Game",
@@ -36,7 +37,7 @@ const project = [
 	{
 		Name: "Maths Game",
 		Description: "A math's game for children to increase their IQ",
-		Stack: "JavaScript, Bootstra,Css",
+		Stack: "JavaScript, Bootstrap,Css",
 		img: "/img/Maths Game.png",
 		url: "https://chamberezigbo.github.io/Game/",
 	},

@@ -7,14 +7,14 @@ const project = [
 	{
 		Name: "Todo App ",
 		Description:
-			"A todo app with vue which has a completed and deleting futures so amazon",
+			"A todo app with vue which has a completed and deleting features so amazing",
 		Stack: "JavaScript, Vue.js",
 		img: "/img/Todo.png",
 		url: "https://zealous-albattani-d4d45c.netlify.app",
 	},
 	{
 		Name: "Calculator ",
-		Description: "Mathematical calculator with nice futures like futures",
+		Description: "Mathematical calculator with nice features like features",
 		Stack: "JavaScript, React",
 		img: "/img/calculator done.png",
 		url: "https://remarkable-tapioca-136c0c.netlify.app",
@@ -22,7 +22,7 @@ const project = [
 	{
 		Name: "E-commerce ",
 		Description:
-			"An E-commerce site with a check-out futures and payment with paystack",
+			"An E-commerce site with a check-out features and payment with paystack",
 		Stack: "JavaScript, Bootstrap,Css",
 		img: "/img/E-commerce.png",
 		url: "https://chamberezigbo.github.io/commerce/",
@@ -43,7 +43,7 @@ const project = [
 	},
 	{
 		Name: "React Mini Documentation ",
-		Description: "Fun React mini docs with dark mood futures ",
+		Description: "Fun React mini docs with dark mood features ",
 		Stack: "JavaScript, Bootstrap,React",
 		img: "/img/Reactfun.png",
 		url: "https://inspiring-muffin-e5fa4e.netlify.app",

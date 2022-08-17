@@ -14,7 +14,7 @@ const project = [
 	},
 	{
 		Name: "Calculator ",
-		Description: "Mathematical calculator with nice features like features",
+		Description: "Mathematical calculator with nice features",
 		Stack: "JavaScript, React",
 		img: "/img/calculator done.png",
 		url: "https://remarkable-tapioca-136c0c.netlify.app",

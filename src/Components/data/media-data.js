@@ -1,3 +1,5 @@
+// ?> Social media links //
+
 import {
 	UilLinkedinAlt,
 	UilGithub,

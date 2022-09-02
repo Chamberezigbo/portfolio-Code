@@ -1,3 +1,5 @@
+// ?> My navbar section //
+
 import SocialLinks from "../data/SocialLinks";
 import "./Navbar.css";
 import Offcanvas from "./Offcanvas";

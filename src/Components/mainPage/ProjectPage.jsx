@@ -1,3 +1,5 @@
+// ?> Project section where i maped with project array //
+
 import data from "../data/projects";
 export default function ProjectPage() {
 	return (

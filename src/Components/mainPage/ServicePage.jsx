@@ -1,3 +1,5 @@
+//? > Service page, where i stated all service i rendered //
+
 import {
 	UilDiamond,
 	UilRocket,

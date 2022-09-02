@@ -1,3 +1,5 @@
+// ?> About section //
+
 import React from "react";
 import "./MainPage.css";
 import ServicePage from "./ServicePage";

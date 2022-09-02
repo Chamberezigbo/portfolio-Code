@@ -1,3 +1,5 @@
+// ?> Socia media link for main page //
+
 import data from "../data/media-data";
 
 export default function SocialLinks() {

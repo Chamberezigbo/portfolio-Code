@@ -1,8 +1,5 @@
-// import calculator from "/img/calculator done.png";
-// import eCommerce from "/img/E-commerce.png";
-// import monsterGame from "/img/MonsterGame.png";
-// import mathGame from "/img/Maths Game.png";
-// import funReact from "/img/Reactfun.png";
+// ?> project links and images //
+
 const project = [
 	{
 		Name: "Todo App ",

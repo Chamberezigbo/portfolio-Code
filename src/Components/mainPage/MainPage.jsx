@@ -1,3 +1,5 @@
+//?> main section holding every thing //
+
 import SocialLinks from "../data/SocialLinks";
 import bg from "../../img/bg-main-potr.png";
 import ProjectPage from "./ProjectPage";

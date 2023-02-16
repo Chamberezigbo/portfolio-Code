@@ -1,7 +1,7 @@
 //?> main section holding every thing //
 
 import SocialLinks from "../data/SocialLinks";
-import bg from "../../img/bg-main-potr.png";
+import bg from "../../img/Chamber Ezigbo1 (1).png";
 import ProjectPage from "./ProjectPage";
 import About from "./About";
 import LandingPage from "./LandingPage";
@@ -11,7 +11,7 @@ export default function MainPage({ onClickHandler, pageStatus }) {
 	return (
 		<div className="container-fluid mt-5">
 			<div className="container">
-				<div className="row border-bottom border-success border-4">
+				<div className="row border-custom">
 					<div className="col-lg-6">
 						<h6>Algorithm without humanity is digital barbarism</h6>
 					</div>
@@ -22,7 +22,7 @@ export default function MainPage({ onClickHandler, pageStatus }) {
 				</div>
 			</div>
 
-			<div className="container my-5">
+			<div className="container mt-5">
 				{pageStatus ? (
 					<About img={bg} onClickHandler={onClickHandler} />
 				) : (

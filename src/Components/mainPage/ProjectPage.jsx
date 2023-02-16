@@ -5,7 +5,7 @@ export default function ProjectPage() {
 	return (
 		<>
 			{data.map((a) => (
-				<div className="col-lg-6">
+				<div className="col-lg-6" key={a.url}>
 					<div className="card mb-3">
 						<img
 							src={process.env.PUBLIC_URL + a.img}
@@ -22,7 +22,7 @@ export default function ProjectPage() {
 							</p>
 							<a
 								href={a.url}
-								class="btn btn-outline-success"
+								className="btn custom-btn"
 								target="_bank"
 							>
 								Visit
@@ -31,7 +31,6 @@ export default function ProjectPage() {
 					</div>
 				</div>
 			))}
-			{/* src={process.env.PUBLIC_URL + a.img} */}
 		</>
 	);
 }

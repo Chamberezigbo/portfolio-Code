@@ -43,14 +43,14 @@ export default function About({ img, onClickHandler }) {
 					</article>
 					<div className="container">
 						<a
-							href="https://docs.google.com/document/d/1VH170x12Il8zZxPrX82i8dOVcmLEt5si/edit?usp=sharing&ouid=111068229227732876276&rtpof=true&sd=true"
-							className="text-dark btn btn-outline-success btn-sm"
+							href="https://drive.google.com/file/d/1tMWsIZV85F1tOBe45qUnTIKqG4H8b8Lf/view?usp=sharing"
+							className="text-dark btn custom-btn btn-sm"
 						>
 							View Cv
 						</a>
 						<button
 							type="button"
-							className="btn btn-outline-success ms-2 btn-sm"
+							className="btn custom-btn ms-2 btn-sm"
 							onClick={onClickHandler}
 						>
 							Home
@@ -58,12 +58,7 @@ export default function About({ img, onClickHandler }) {
 					</div>
 				</div>
 				<div className="col-md-7 d-none d-sm-none d-lg-block">
-					<img
-						src={img}
-						className="img-thumbnail"
-						alt={img}
-						width="97%"
-					/>
+					<img src={img} className="rounded" alt={img} width="97%" />
 				</div>
 			</div>
 			<ServicePage />

@@ -14,7 +14,7 @@ function App() {
 	useEffect(() => {
 		setTimeout(() => {
 			setIsLoading(false);
-		}, 5000); // Simulate loading for 2 seconds
+		}, 9000); // Simulate loading for 2 seconds
 	}, []);
 
 	const ToggleAbout = () => {

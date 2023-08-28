@@ -1,13 +1,24 @@
 //?> main section holding every thing //
-
+import React, { useState } from "react";
 import SocialLinks from "../data/SocialLinks";
 import bg from "../../img/Chamber Ezigbo1 (1).png";
 import ProjectPage from "./ProjectPage";
 import About from "./About";
 import LandingPage from "./LandingPage";
+import BlogPage from "./BlogPage";
 import "./MainPage.css";
 
 export default function MainPage({ onClickHandler, pageStatus }) {
+	const [displayComponent, setDisplayComponent] = useState(<ProjectPage />); // Set Project component as initial state
+
+	const showProjectComponent = () => {
+		setDisplayComponent(<ProjectPage />);
+	};
+
+	const showBlogComponent = () => {
+		setDisplayComponent(<BlogPage />);
+	};
+
 	return (
 		<div className="container-fluid mt-5">
 			<div className="container">
@@ -31,12 +42,32 @@ export default function MainPage({ onClickHandler, pageStatus }) {
 			</div>
 
 			<div className="container mt-5 border-top border-secondary">
+				<div className="d-flex justify-content-center mt-5">
+					<div
+						className="btn-group"
+						role="group"
+						aria-label="Basic example"
+					>
+						<button
+							type="button"
+							class="btn custom-btn"
+							onClick={showProjectComponent}
+						>
+							Projects
+						</button>
+						<button
+							type="button"
+							class="btn custom-btn"
+							onClick={showBlogComponent}
+						>
+							Blogs
+						</button>
+					</div>
+				</div>
 				<div className="ProjectSec">
-					<h2 className="fst-italic my-5">Latest Project</h2>
+					<h2 className="fst-italic my-5">Latest Project || Blog</h2>
 				</div>
-				<div className="row">
-					<ProjectPage />
-				</div>
+				<div className="row">{displayComponent}</div>
 			</div>
 		</div>
 	);

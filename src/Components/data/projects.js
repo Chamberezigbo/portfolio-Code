@@ -12,40 +12,26 @@ const project = [
 	{
 		Name: "Tailor Skit",
 		Description:
-			"Tailor's kit is a large database & productivity software that helps Tailors to save, manage, access client's data, and track client's orders from anywhere and at anytime with ease.",
-		Stack: "JavaScript, Bootstrap,Css, React, PHP",
+			"Tailor's Kit is a versatile software that I, as a software engineer based in Nigeria, developed from scratch. I crafted the backend using PHP to create a powerful REST API, and also designed the frontend. This comprehensive solution enables Tailors to efficiently manage client data and track orders with ease.",
+		Stack: "JavaScript, Bootstrap,Css, React, PHP,Rest API",
 		img: "/img/Tailors.PNG",
 		url: "https://tailorskit.com/",
 	},
 	{
-		Name: "Todo App ",
+		Name: "E-commerce ",
 		Description:
-			"A todo app with vue which has a completed and deleting features so amazing",
-		Stack: "JavaScript, Vue.js",
-		img: "/img/Todo.png",
-		url: "https://zealous-albattani-d4d45c.netlify.app",
-	},
-	{
-		Name: "Calculator ",
-		Description: "Mathematical calculator with nice features",
-		Stack: "JavaScript, React",
-		img: "/img/calculator done.png",
-		url: "https://remarkable-tapioca-136c0c.netlify.app",
+			"I developed the backend for an E-commerce site using PHP to create a REST API, and I also crafted the frontend. The website includes checkout functionality and integrates with Paystack for payment processing.",
+		Stack: "JavaScript, Bootstrap,Css,PHP",
+		img: "/img/nidafrca.PNG",
+		url: "https://nidafrica.co/",
 	},
 	{
 		Name: "E-commerce ",
 		Description:
-			"An E-commerce site with a check-out features and payment with paystack",
+			"I developed the backend for an E-commerce site using javascript to create a REST API, and I also crafted the frontend. The website includes checkout functionality and integrates with Paystack for payment processing.",
 		Stack: "JavaScript, Bootstrap,Css",
 		img: "/img/E-commerce.png",
 		url: "https://chamberezigbo.github.io/commerce/",
-	},
-	{
-		Name: "Monster Game",
-		Description: "fun simple game app with vue.js",
-		Stack: "JavaScript, Vue.js",
-		img: "/img/MonsterGame.png",
-		url: "https://chamberezigbo.github.io/monster_game/",
 	},
 ];
 

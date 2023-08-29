@@ -43,7 +43,7 @@ export default function About({ img, onClickHandler }) {
 					</article>
 					<div className="container">
 						<a
-							href="https://drive.google.com/file/d/1tMWsIZV85F1tOBe45qUnTIKqG4H8b8Lf/view?usp=sharing"
+							href="https://drive.google.com/file/d/1czLeV7katFnQPwPCUOldPACVs3Ky-c7i/view?usp=sharing"
 							className="text-dark btn custom-btn btn-sm"
 						>
 							View Cv

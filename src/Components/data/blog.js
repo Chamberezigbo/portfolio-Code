@@ -28,7 +28,7 @@ const blog = [
 	{
 		Name: "What You Should Know About JavaScript",
 		Description:
-			"Javascript is a programing language that works on a v8 engine. this engine helps your browser to understand and interact with javascript. Note if you are using an external file for javascript it must be saved with a file extension of js",
+			"Javascript is a programming language that works on a v8 engine. this engine helps your browser to understand and interact with javascript. Note if you are using an external file for javascript it must be saved with a file extension of js",
 		Stack: "Hashnode",
 		img: "/img/javascript.PNG",
 		url: "https://chamber.hashnode.dev/what-you-should-know-about-javascript",

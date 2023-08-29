@@ -23,7 +23,7 @@ const blog = [
 			"The PHP Roadmap is my path to mastering PHP development. From foundational syntax to advanced web frameworks and security, I'm dedicated to honing my skills as a software engineer based in Nigeria.",
 		Stack: "Hashnode",
 		img: "/img/php.PNG",
-		url: "https://nidafrica.co/",
+		url: "https://chamber.hashnode.dev/php-roadmap",
 	},
 	{
 		Name: "What You Should Know About JavaScript",

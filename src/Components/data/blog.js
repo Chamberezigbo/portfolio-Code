@@ -2,6 +2,14 @@
 
 const blog = [
 	{
+		Name: "Mastering the Software Development Lifecycle: Navigating Development and Production Environments",
+		Description:
+			"As a software engineer, you have come across this issue of working in my system but not working on the production.",
+		Stack: "medium.",
+		img: "/img/environment.png",
+		url: "https://medium.com/@chamberezigbo/mastering-the-software-development-lifecycle-navigating-development-and-production-environments-738b6556af65",
+	},
+	{
 		Name: "Server-Side Rendering vs. Client-Side Rendering: Exploring Next.js’ Role in Web Development",
 		Description:
 			"Server-Side Rendering vs. Client-Side Rendering: Exploring Next.js’ Role in Web",

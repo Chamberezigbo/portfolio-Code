@@ -2,6 +2,14 @@
 
 const project = [
 	{
+		Name: "Formcraft",
+		Description:
+			"FormCraft is a powerful and user-friendly online tool that empowers individuals and businesses to effortlessly create stunning landing pages and online profiles. With its intuitive interface,",
+		Stack: "JavaScript, Bootstrap,React,PHP,Nestjs",
+		img: "/img/formcraft.PNG",
+		url: "https://formcraft.netlify.app/",
+	},
+	{
 		Name: "Octavalidate",
 		Description:
 			"This JavaScript library helps to validate your frontend (HTML) forms using validation rules, sophisticated regular expressions and form input attributes.",

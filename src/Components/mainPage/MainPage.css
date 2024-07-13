@@ -1,12 +1,13 @@
 .custom-btn {
-     border: 2px solid #e95b93;
-     color: #e95b93;
+  border: 2px solid #e95b93;
+  color: #e95b93;
 }
-.border-custom{
-     border-bottom: 3px solid #e95b93;
+.border-custom {
+  border-bottom: 3px solid #e95b93;
 }
+
 @media screen and (max-width: 480px) {
-  .ProjectSec{
-     text-align: center;
+  .ProjectSec {
+    text-align: center;
   }
 }

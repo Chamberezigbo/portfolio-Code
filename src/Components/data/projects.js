@@ -1,46 +1,47 @@
 // ?> project links and images //
 
 const project = [
-	{
-		Name: "Formcraft",
-		Description:
-			"FormCraft is a powerful and user-friendly online tool that empowers individuals and businesses to effortlessly create stunning landing pages and online profiles. With its intuitive interface,",
-		Stack: "JavaScript, Bootstrap,React,PHP,Nestjs",
-		img: "/img/formcraft.PNG",
-		url: "https://formcraft.netlify.app/",
-	},
-	{
-		Name: "Octavalidate",
-		Description:
-			"This JavaScript library helps to validate your frontend (HTML) forms using validation rules, sophisticated regular expressions and form input attributes.",
-		Stack: "JavaScript, Bootstrap,React",
-		img: "https://camo.githubusercontent.com/39c953f852da1fd557f293a16ed26a7548fa6e449a8ea487caf31e6712b4dd11/68747470733a2f2f6f637461676f6e2d73696d6f6e2e6769746875622e696f2f6f63746156616c69646174652f696d672f666f726d2d6572726f722e706e67",
-		url: "https://github.com/Octagon-simon/octaValidate",
-	},
-	{
-		Name: "Tailor Skit",
-		Description:
-			"Tailor's Kit is a versatile software that I, as a software engineer based in Nigeria, developed from scratch. I crafted the backend using PHP to create a powerful REST API, and also designed the frontend. This comprehensive solution enables Tailors to efficiently manage client data and track orders with ease.",
-		Stack: "JavaScript, Bootstrap,Css, React, PHP,Rest API",
-		img: "/img/Tailors.PNG",
-		url: "https://tailorskit.com/",
-	},
-	{
-		Name: "E-commerce ",
-		Description:
-			"I developed the backend for an E-commerce site using PHP to create a REST API, and I also crafted the frontend. The website includes checkout functionality and integrates with Paystack for payment processing.",
-		Stack: "JavaScript, Bootstrap,Css,PHP",
-		img: "/img/nidafrca.PNG",
-		url: "https://nidafrica.co/",
-	},
-	{
-		Name: "E-commerce ",
-		Description:
-			"I developed the backend for an E-commerce site using javascript to create a REST API, and I also crafted the frontend. The website includes checkout functionality and integrates with Paystack for payment processing.",
-		Stack: "JavaScript, Bootstrap,Css",
-		img: "/img/E-commerce.png",
-		url: "https://chamberezigbo.github.io/commerce/",
-	},
+  {
+    Name: "Rad5 Tech Hub",
+    Description:
+      "Managed the website for Rad5 Tech Hub, Ensured the website's smooth operation by regularly updating content, fixing bugs, and performing routine maintenance.",
+    Stack: "JavaScript, Bootstrap,Css, HTML",
+    img: "/img/rad5.png",
+    url: "https://academy.rad5.com.ng/",
+  },
+  {
+    Name: "IG Hub",
+    Description:
+      "Innovation Growth Hub is a dynamic tech and business incubation hub that collaborates with startups at various stages. During my tenure, I managed their website, contributing to the digital presence and functionality of the hub.",
+    Stack: "JavaScript, Bootstrap,Css,HTML",
+    img: "/img/ighub.png",
+    url: "https://ighub.ng/",
+  },
+
+  {
+    Name: "Formcraft",
+    Description:
+      "FormCraft is a powerful and user-friendly online tool that empowers individuals and businesses to effortlessly create stunning landing pages and online profiles. With its intuitive interface,",
+    Stack: "JavaScript, Bootstrap,React,PHP,Nestjs",
+    img: "/img/formcraft.PNG",
+    url: "https://formcraft.netlify.app/",
+  },
+  {
+    Name: "Octavalidate",
+    Description:
+      "As part of my ongoing commitment to improving user experiences in web development, I contributed to an NPM package designed to enhance form validation in React JS applications. This package streamlines the process of validating frontend forms by leveraging a combination of validation rules, sophisticated regular expressions, and form input attributes.",
+    Stack: "JavaScript, Bootstrap,React",
+    img: "/img/octa.png",
+    url: "https://www.npmjs.com/package/octavalidate-reactjs",
+  },
+  {
+    Name: "sql-functions-kit",
+    Description:
+      "I developed a versatile and lightweight npm package that provides essential SQL functions for Node.js applications. This package simplifies SQL operations, making it easier for developers to interact with databases and perform common tasks efficiently. Whether you're building a small project or a large-scale application, this package offers a robust solution for your SQL needs.",
+    Stack: "JavaScript, Node.js",
+    img: "/img/sql.png",
+    url: "https://www.npmjs.com/package/sql-functions-kit",
+  },
 ];
 
 export default project;

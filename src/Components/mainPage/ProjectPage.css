@@ -1,0 +1,28 @@
+/* ProjectPage.css */
+.card-back {
+  display: none; /* Hide the back of the card by default */
+}
+
+.card {
+  margin-bottom: 1rem;
+  overflow: hidden; /* Ensure child elements don't overflow the card */
+}
+
+.card-front,
+.card-back {
+  transition: opacity 0.6s ease-in-out;
+}
+
+.fade-out {
+  opacity: 0;
+}
+
+.fade-in {
+  display: block; /* Ensure it's visible */
+  opacity: 1;
+}
+
+.custom-btn {
+  border: 2px solid #e95b93;
+  color: #e95b93;
+}
